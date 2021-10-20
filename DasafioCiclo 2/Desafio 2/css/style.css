@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin:2px;
+  border:0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  text-align: center;
+  font-style: Verdana;
+}
+
+/* ----------------------------------------------------------> TOP SITE inicio */
+#header-top {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient( #2196F3, #3D5AFE, #0D47A1);
+  text-decoration: none;
+  color:#fff;
+  padding: 10px;
+} 
+
+
+/* centralizar imagem */
+#centralizarimg{
+width:150px;
+height:150px;
+position:absolute;
+top:14%;
+left: 46%; 
+}
+
+
+/* ----------------------------------------------------------> TOP SITE FIM*/
+
+/* ----------------------------------------------------------> Corpo Central do SITE inicio */
+main {
+  margin:60px auto;
+  width: 500px;
+  height: auto;
+  background-color: #fff;
+  border:1px solid black;
+  padding: 30px;
+}
+
+form {
+  width: auto;
+  height: auto;
+  padding: 2px;
+ 
+}
+label{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  margin: 1px;
+}  
+
+.areatextual{
+    width: 60%;
+    height: auto;
+    padding: 2px;
+  
+}
+
+.txt {
+  width: 100%;
+  height: 30px;
+ 
+}
+
+.eviarbotao{
+  height: auto;
+  width: 100%;
+  color:rgb(0, 0, 0);
+  background-color: #2196F3;
+  -webkit-border-radius:auto;
+  -moz-border-radius:auto;
+  -ms-border-radius:auto;
+  border-radius: auto;
+  padding: 5px;
+}
+
+/* ----------------------------------------------------------> Corpo Central do SITE FIM */
+
